@@ -1,0 +1,29 @@
+{
+  "name": "sigh",
+  "version": "1.0.0",
+  "description": "money app to help save money ~ made with love spike",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bioinformatics-Surgeon/sigh.git"
+  },
+  "author": "cody goss a.k.a spike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bioinformatics-Surgeon/sigh/issues"
+  },
+  "homepage": "https://github.com/Bioinformatics-Surgeon/sigh#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
